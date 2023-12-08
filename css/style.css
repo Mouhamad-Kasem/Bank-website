@@ -1,0 +1,200 @@
+:root {
+    --navy-blue: #111f34;
+    --blue: #0c9289;
+    --green-color: #0c9289;
+    --red-color: #ff3150;
+    --yellow-color: #ffc400;
+}
+
+html, body {
+    width: 100%;
+    font-family: Rubik,El+Messiri, Noto+Naskh+Arabic, ;
+    color: var(--navy-blue);
+}
+
+
+/***************************** Navigation *****************************/ 
+#header{
+    width: 100%;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    color: var(--navy-blue);
+}
+#header .dropdown{
+    z-index: 10000;
+}
+#header .dropdown-item{
+    color: var(--navy-blue);
+    border-color: var(--navy-blue);
+}
+#header .dropdown-item{
+    color: var(--navy-blue);
+    border-color: var(--navy-blue) !important;
+}
+
+
+
+
+
+/***************************** Navigation *****************************/ 
+.navbar{
+    width: 100%;
+    padding: 0.8rem;
+    background-color: white;
+}
+
+.navbar-nav li{
+    padding-left: 20px;
+}
+.nav-link{
+    font-size: 1.1em !important;
+    font-weight: 600;
+    color: var(--navy-blue) !important;
+}
+.nav-link:hover{
+    color:var(--blue) !important;
+}
+.nav-link:active{
+    color:var(--blue) !important;
+}
+.navbar ul{
+    padding-right: 0px !important;
+}
+.navbar .btn{
+    font-weight: 600;
+    border: 1px solid;
+    border-color: var(--navy-blue);
+    color: var(--navy-blue);
+}
+.navbar .btn:hover{
+    background-color: var(--navy-blue);
+    color: white;
+}
+
+
+
+
+/***************************** Image Slider *****************************/ 
+#slides .carousel{
+    position: relative;
+    top:0px;
+}
+#slides .carousel-inner img{
+    width: 100%;
+    max-height: 800px;
+}
+#slides .carousel-caption{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+
+
+
+/***************************** Cards *****************************/ 
+#cards{
+    min-height: 600px;
+    align-items: center;
+}
+#cards h5, #cards h2, #cards p{
+    color: var(--navy-blue) !important;
+}
+/*#cards .row{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}*/
+#cards a{
+    background-color: var(--navy-blue) !important;
+    color: white;
+}
+#cards a:hover{
+    background-color: white !important;
+    color: var(--navy-blue);
+}
+.main-title::after {
+    content: '';
+    width: 100px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+
+
+
+/***************************** About *****************************/ 
+#about {
+    background-image: linear-gradient(to right, rgb(187, 218, 217), #66fdf3);
+}
+#about .carousel-item img{
+    max-height: 400px;
+}
+#about .carousel-item{
+    height: 400px;
+}
+#about .ad img{
+    max-height: 200px;
+    max-width: 250px;
+    margin: auto;
+}
+#about .carousel-caption p{
+    color: var(--navy-blue) !important;
+    font-weight: 400;
+}
+#about .carousel-caption h3{
+    columns: var(--navy-blue);
+    font-weight: 500;
+}
+
+
+
+
+
+/***************************** Accordion *****************************/ 
+#accordion{
+    margin: 50px 0px;
+}
+
+
+
+
+
+
+/***************************** Footer *****************************/ 
+.footer{
+    background-color: var(--navy-blue);
+}
+.footer .copyright > #s1 {
+    color: var(--green-color);
+}
+
+.footer .copyright > #s2 {
+    color: var(--yellow-color);
+}
+.footer  ul{
+    padding: 0px !important;
+}
+.footer .contact ul svg {
+    width: 20px;
+    height: 20px;
+}
+.footer .facebook {
+    background-color: #1877f2;
+}
+.footer .twitter {
+    background-color: #1da1f2;
+}
+.footer .linkedin {
+    background-color: #0077b5;
+}
+.footer .youtube {
+    background-color: #ff0000;
+}
